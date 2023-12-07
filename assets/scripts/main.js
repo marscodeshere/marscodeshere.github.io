@@ -118,6 +118,7 @@ function buildArtGallery(artA, artD, collabA, collabD, commissA, commissD) {
     console.log("Running the code for Art.html");
     var artHTML = "";
     for(var i = 0; i < artA.length; i++) {
+        console.log(artA[i]);
         artHTML += "<div class='galleryItem'>"
         artHTML += "<a target='_blank' href='" + artA[i] + "'>";
         artHTML += "<img src='" + artA[i] + "' alt='Image Gallery'></a><div><p>" + artD + "</p></div></div>";
