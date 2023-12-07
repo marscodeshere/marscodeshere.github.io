@@ -17,13 +17,13 @@ function init(){
     
         startCal(thisDay);
     } else if (page == "Art.html") {
-        var artArray = ["../../assets/images/cosplay1.jpg", "../../assets/images/cosplay2.jpg", "../../assets/images/cosplay3.png", "../../assets/images/cosplay4.jpg", "../../assets/images/cosplay5.jpg"];
+        var artArray = ["../../assets/images/cosplay1.JPG", "../../assets/images/cosplay2.JPG", "../../assets/images/cosplay3.PNG", "../../assets/images/cosplay4.JPG", "../../assets/images/cosplay5.JPG"];
         var artDesc = "Zagreus Cosplay from Hades Video Game <br> Created 2022 <br> Eva Foam, Acrylic Paint, Cardboard, Sewn Fabric";                
-        var collabArray = ["../../assets/images/collab1.jpg", "../../assets/images/collab2.jpg", "../../assets/images/collab3.jpg", "../../assets/images/collab4.jpg", "../../assets/images/collab5.jpg", "../../assets/images/collab6.jpg", "../../assets/images/collab7.jpg", "../../assets/images/collab8.jpg", "../../assets/images/collab9.jpg", "../../assets/images/collab10.jpg", "../../assets/images/collab11.jpg", "../../assets/images/collab12.jpg"];
+        var collabArray = ["../../assets/images/collab1.JPG", "../../assets/images/collab2.JPG", "../../assets/images/collab3.JPG", "../../assets/images/collab4.JPG", "../../assets/images/collab5.JPG", "../../assets/images/collab6.JPG", "../../assets/images/collab7.JPG", "../../assets/images/collab8.JPG", "../../assets/images/collab9.JPG", "../../assets/images/collab10.JPG", "../../assets/images/collab11.JPG", "../../assets/images/collab12.JPG"];
         var collabDesc1  = "Stranger Things themed Halloween <br> Created 2022 <br> Tempura Paint, Cardboard, Paper";
         var collabDesc2 = "Pokemon themed Halloween <br> Created 2023 <br> Tempura Paint, Cardboard, Paper";
         var collabDesc = [collabDesc1, collabDesc1, collabDesc1, collabDesc1, collabDesc1, collabDesc1, collabDesc1, collabDesc1, collabDesc2, collabDesc2, collabDesc2, collabDesc2];
-        var commissArray = ["../../assets/images/commiss1.jpg", "../../assets/images/commiss2.jpg", "../../assets/images/commiss3.jpeg", "../../assets/images/commiss4.jpeg"];
+        var commissArray = ["../../assets/images/commiss1.JPG", "../../assets/images/commiss2.JPG", "../../assets/images/commiss3.JPEG", "../../assets/images/commiss4.JPEG"];
         var commissDesc = "Bleach Painted Shirts <br> Created 2022 <br> Bleach, Black T-Shirts";
         buildArtGallery(artArray, artDesc, collabArray, collabDesc, commissArray, commissDesc);
     }
