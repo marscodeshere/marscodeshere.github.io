@@ -17,7 +17,7 @@ function init(){
     
         startCal(thisDay);
     } else if (page == "Art.html") {
-        var artArray = ["../../assets/images/cosplay1.JPG", "../../assets/images/cosplay2.JPG", "../../assets/images/cosplay3.PNG", "../../assets/images/cosplay4.JPG", "../../assets/images/cosplay5.JPG"];
+        var artArray = ["../assets/images/cosplay1.JPG", "../../assets/images/cosplay2.JPG", "../../assets/images/cosplay3.PNG", "../../assets/images/cosplay4.JPG", "../../assets/images/cosplay5.JPG"];
         var artDesc = "Zagreus Cosplay from Hades Video Game <br> Created 2022 <br> Eva Foam, Acrylic Paint, Cardboard, Sewn Fabric";                
         var collabArray = ["../../assets/images/collab1.JPG", "../../assets/images/collab2.JPG", "../../assets/images/collab3.JPG", "../../assets/images/collab4.JPG", "../../assets/images/collab5.JPG", "../../assets/images/collab6.JPG", "../../assets/images/collab7.JPG", "../../assets/images/collab8.JPG", "../../assets/images/collab9.JPG", "../../assets/images/collab10.JPG", "../../assets/images/collab11.JPG", "../../assets/images/collab12.JPG"];
         var collabDesc1  = "Stranger Things themed Halloween <br> Created 2022 <br> Tempura Paint, Cardboard, Paper";
