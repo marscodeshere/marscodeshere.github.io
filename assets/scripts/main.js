@@ -17,7 +17,7 @@ function init(){
     
         startCal(thisDay);
     } else if (page == "Art.html") {
-        var artArray = ["../assets/images/cosplay1.JPG", "../../assets/images/cosplay2.JPG", "../../assets/images/cosplay3.PNG", "../../assets/images/cosplay4.JPG", "../../assets/images/cosplay5.JPG"];
+        var artArray = ["../../assets/images/cosplay1.JPG", "../../assets/images/cosplay2.JPG", "../../assets/images/cosplay3.PNG", "../../assets/images/cosplay4.JPG", "../../assets/images/cosplay5.JPG"];
         var artDesc = "Zagreus Cosplay from Hades Video Game <br> Created 2022 <br> Eva Foam, Acrylic Paint, Cardboard, Sewn Fabric";                
         var collabArray = ["../../assets/images/collab1.JPG", "../../assets/images/collab2.JPG", "../../assets/images/collab3.JPG", "../../assets/images/collab4.JPG", "../../assets/images/collab5.JPG", "../../assets/images/collab6.JPG", "../../assets/images/collab7.JPG", "../../assets/images/collab8.JPG", "../../assets/images/collab9.JPG", "../../assets/images/collab10.JPG", "../../assets/images/collab11.JPG", "../../assets/images/collab12.JPG"];
         var collabDesc1  = "Stranger Things themed Halloween <br> Created 2022 <br> Tempura Paint, Cardboard, Paper";
@@ -52,13 +52,13 @@ function calCap(calDate) {
     var calDHTML = "<h1>" + months[thisMon] + " Plans</h1>";
 
     //setting logic for the calendar description at bottom saying the months plans
-    if((thisMon === 10) && (thisYr === 2023) ){
-        console.log("nov 2023");
-        calDHTML += "<p>11/1-11/30: Working on Website. <br> 11/12-11/30: Working on 3D Models.</p>";
+    if((thisMon === 2) && (thisYr === 2024) ){
+        console.log("feb 2024");
+        calDHTML += "<p>2/1-2/29: Working on Website. <br> 2/20-2/29: Working on graphics for Website. <br> 2/20-2/29: Working on AWS Certification.</p>";
         document.getElementById("calDescription").innerHTML = calDHTML;
-    } else if((thisMon === 11) && (thisYr ===2023)) {
-        console.log("dec 2023");
-        calDHTML += "<p>12/1-12/20: Working on Cosplay Projects. <br> 12/20-12/22: Holiday Matsuri Convention. <br> 12/23-12/31: Holiday Commissions and Projects.</p>";
+    } else if((thisMon === 3) && (thisYr ===2024)) {
+        console.log("march 2024");
+        calDHTML += "<p>3/1-3/31: Working on Cosplay Projects. <br> 3/1-3/31: Working on AWS Certification.</p>";
         document.getElementById("calDescription").innerHTML = calDHTML;
     }
     return "<caption>" + months[thisMon] + " " + thisYr + "</caption>";
