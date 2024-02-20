@@ -52,11 +52,11 @@ function calCap(calDate) {
     var calDHTML = "<h1>" + months[thisMon] + " Plans</h1>";
 
     //setting logic for the calendar description at bottom saying the months plans
-    if((thisMon === 2) && (thisYr === 2024) ){
+    if((thisMon === 1) && (thisYr === 2024) ){
         console.log("feb 2024");
         calDHTML += "<p>2/1-2/29: Working on Website. <br> 2/20-2/29: Working on graphics for Website. <br> 2/20-2/29: Working on AWS Certification.</p>";
         document.getElementById("calDescription").innerHTML = calDHTML;
-    } else if((thisMon === 3) && (thisYr ===2024)) {
+    } else if((thisMon === 2) && (thisYr ===2024)) {
         console.log("march 2024");
         calDHTML += "<p>3/1-3/31: Working on Cosplay Projects. <br> 3/1-3/31: Working on AWS Certification.</p>";
         document.getElementById("calDescription").innerHTML = calDHTML;
