@@ -137,7 +137,7 @@ div.submenuContent {
 
 /*---------------------------Art Styles------------------------------*/
 
-#artContent, #collabContent, #commissionsContent, #currentContent {
+#artContent, #collabContent, #commissionsContent {
     display: block;
     position: relative;
     text-shadow: 2px 2px #323B30;
